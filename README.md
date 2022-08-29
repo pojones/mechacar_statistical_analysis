@@ -1,9 +1,12 @@
-# mechacar_statistical_analysis
-A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
-
-You’ll help Jeremy and the data analytics team do the following:
-
-Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+## Overview
+Collecting summary statistics on the pounds per square inch (PSI) of the suspension coils from manufacturing lots. Using R to perform multiple linear regression analysis on the dataset and using t-tests to determine variability in individual lots versus the mean population. 
+## Results
+### Linear Regression to Predict MPG
+![Deliverable 1]( https://github.com/pojones/mechacar_statistical_analysis/blob/24d1b8e7227d397cf1b476612d07fba88e395ef6/deliverable1.png)
+### Summary Statistics on Suspension Coils
+![Deliverable 2.1]( https://github.com/pojones/mechacar_statistical_analysis/blob/24d1b8e7227d397cf1b476612d07fba88e395ef6/deliverable2.1.png)
+![Deliverable 2.2]( https://github.com/pojones/mechacar_statistical_analysis/blob/24d1b8e7227d397cf1b476612d07fba88e395ef6/deliverable2.2.png)
+### Suspension Coil Data T-Tests
+![Deliverable 3.1]( https://github.com/pojones/mechacar_statistical_analysis/blob/24d1b8e7227d397cf1b476612d07fba88e395ef6/deliverable3.1.png)
+![Deliverable 3.2]( https://github.com/pojones/mechacar_statistical_analysis/blob/24d1b8e7227d397cf1b476612d07fba88e395ef6/deliverable3.2.png)
+## Summary
