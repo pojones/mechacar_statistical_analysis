@@ -2,6 +2,7 @@
 Collecting summary statistics on the pounds per square inch (PSI) of the suspension coils from manufacturing lots. Using R to perform multiple linear regression analysis on the dataset and using t-tests to determine variability in individual lots versus the mean population. 
 ## Results
 ### Linear Regression to Predict MPG
+<br/>
 ![Deliverable1](https://github.com/pojones/mechacar_statistical_analysis/blob/24d1b8e7227d397cf1b476612d07fba88e395ef6/deliverable1.png)
 <br/>
 - Our p-values [Pr(>|t|) column values] for vehicle length and ground clearance are near-zero, indicating they are statistically likely to provide non-random amounts of variance to the model. That is, the data indicate that vehicle length and ground clearance have a significant impact on MechaCar's fuel mileage. Conversely, the variables for vehicle weight, spoiler, angle, and AWD would indicate more randomness in the data set.
@@ -9,6 +10,7 @@ Collecting summary statistics on the pounds per square inch (PSI) of the suspens
 - Since the data's p-value is near-zero (5.35e-11) and the R-squared value is reasonably high, this model seems reasonably effective for predicting MechaCar fuel mileage. 
 <br/>   
 ### Summary Statistics on Suspension Coils
+<br/>
 ![Deliverable2.1](https://github.com/pojones/mechacar_statistical_analysis/blob/24d1b8e7227d397cf1b476612d07fba88e395ef6/deliverable2.1.png)
 <br/>
 Since design specifications require a <100 variance in PSI, the full production run effectively passed the inspection. But the variance is still worth further inspection.
@@ -17,6 +19,7 @@ Since design specifications require a <100 variance in PSI, the full production 
 Further inspection reveals that the majority of the variance comes from lot three, which does not meet specification criteria. This lot will need to be reviewed.
 <br/>
 ### Suspension Coil Data T-Tests
+<br/>
 ![Deliverable3.1](https://github.com/pojones/mechacar_statistical_analysis/blob/24d1b8e7227d397cf1b476612d07fba88e395ef6/deliverable3.1.png)
 <br/>
 The t-test performed on the full run shows a true mean congruent with the results above. Also observe the p-value of 0.06. This is not sufficient evidence to reject the null, meaning that there is not sufficient evidence to indicate that the production run is inadequate.
